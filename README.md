@@ -1,9 +1,9 @@
 # Componiendo Con Symfony: Proyecto Limpio v3.3.9
-## Instalacion de tu Bundle
+## Instalación de tu Bundle
 
-Para poder usar el proyecto necesitas generar un nuevo bundle. Para ello nos hubicaremos en nuestro proyecto y usaremos la consola de Symfony para generar nuestro Bundle.
+Para poder usar el proyecto necesitas generar un nuevo bundle. Para ello nos ubicaremos en nuestro proyecto y usaremos la consola de Symfony para generar nuestro Bundle.
 
-*Recuerda que el formato de configuracion que usaremos es yaml escribe **yml** en **Configuration format***.
+*Recuerda que el formato de configuración que usaremos es yaml escribe **yml** en **Configuration format***.
 
 ```composer
 cd TuProyecto
@@ -23,9 +23,9 @@ sigue los pasos que te indica el generador de bundles.
 >  \- Edit the composer.json file and register the bundle
 >  namespace in the "autoload" section:
 
-abriremos el archivo **composer.json** de nuestro proyecto y buscaremos la seccion del autoload para agregar el namespace de nuestro bundle.
+abriremos el archivo **composer.json** de nuestro proyecto y buscaremos la sección del autoload para agregar el namespace de nuestro bundle.
 
-*En el proyecto la linea que agregaremos sera en la **linea 8** agrega `"TuBundle\\": "src/TuBundle"` y cambia el namespace TuBundle.*
+*En el proyecto la línea que agregaremos sera en la **línea 8** agrega `"TuBundle\\": "src/TuBundle"` y cambia el namespace TuBundle.*
 
 ```javascript
 "autoload": {
@@ -43,3 +43,5 @@ por ultimo en la consola actualizaremos el archivo **composer.json** con el sigu
 ```composer
 php composer.phar dumpautoload
 ```
+
+#### ¡Ahora ya podras modificar tu proyecto!
