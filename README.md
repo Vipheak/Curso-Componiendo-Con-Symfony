@@ -38,6 +38,8 @@ abriremos el archivo **composer.json** de nuestro proyecto y buscaremos la secci
 
 por ultimo en la consola actualizaremos el archivo **composer.json** con el siguiente comando:
 
+*recuerda que debes hacerlo dentro de tu proyecto `cd TuProyecto`.*
+
 ```composer
 php composer.phar dumpautoload
 ```
